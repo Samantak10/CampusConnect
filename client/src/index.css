@@ -1,39 +1,29 @@
-* {
-  font-family: 'Manrope', sans-serif !important;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
-a {
-  text-decoration: none !important;
-}
-
-.my_profile-bg {
-  width: 340px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-.my_profile_user-img {
-  border-radius: 100%;
-  margin-left: -64px;
-}
-
-.property_details-img {
+html,
+body,
+#root,
+.app {
+  height: 100%;
   width: 100%;
+  font-family: "Inter", sans-serif;
 }
 
-@media screen and (max-width: 900px) {
-  .my_profile-bg {
-      width: 100%;
-      border-radius: 15px;
-  }
+::-webkit-scrollbar {
+  width: 10px;
+}
 
-  .my_profile_user-img {
-      margin-left: 0px;
-      margin-top: -64px;
-  }
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7a7f9d;
+}
 
-  .property_details-img {
-      width: 100%;
-      height: auto;
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #21295c;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+  background: #21295c;
 }
